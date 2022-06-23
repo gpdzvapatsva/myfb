@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let rectangle={length:9, width:7,  area : function ()
+    {
+        return  this.length * this.width;
+    },
+  // perimeter method
+    perimeter : function ()
+    {
+        return 2*(this.length + this.width);
+    }};
+    document.write(`The length is `
+     , rectangle.length    );
+    document.write("The width is ",  rectangle.width +"<br/>");
+    document.write("The area is ",  rectangle.area() +"<br/>");
+    document.write("The area is ",  rectangle.perimeter());
+    </script>
+</body>
+</html>
